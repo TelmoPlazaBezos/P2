@@ -1,0 +1,89 @@
+/* Estilos para el cuerpo de todas las páginas */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px; /* Agrega más margen alrededor del contenido */
+    line-height: 1.6;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block; /* Para asegurar que la imagen se centre correctamente */
+    margin: 0 auto 20px; /* Centra la imagen horizontalmente y agrega margen inferior */
+    border: 2px solid #ccc; /* Agrega un borde alrededor de la imagen */
+    border-radius: 5px; /* Agrega esquinas redondeadas al borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra alrededor de la imagen */
+}
+
+/* Estilos para los encabezados de las páginas */
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px; /* Agrega margen inferior a los encabezados */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos para formularios */
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
